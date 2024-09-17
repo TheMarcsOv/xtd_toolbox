@@ -24,7 +24,7 @@ For instance, if you want to use xtd_math.h, define XTD_MATH_IMPLEMENTATION befo
 #include "xtd_math.h"
 
 int main(int argc, char** argv) {
-    XTD_fprint4f(stdout, add4f(V4f {1,2,3,4} + V4f {1,1,1,1}));
+    XTD_fprint4f(stdout, add4f(V4f {1,2,3,4}, V4f {1,1,1,1}));
     return 0;
 }
 ```
